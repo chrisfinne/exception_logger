@@ -29,22 +29,19 @@ _()_()_()_()_()_()_()_()_()_()_()_()_()_()_()_()_()_()_()_()_()_()_()_()_()_()_
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<rails>, [">= 3.1.0.rc6"])
-      s.add_runtime_dependency(%q<will_paginate>, [">= 3.0"])
-      s.add_runtime_dependency(%q<meta_where>, [">= 0.9"])
-      s.add_runtime_dependency(%q<i18n>, [">= 0.6"])
-      s.add_development_dependency(%q<shoulda>, [">= 2.11.3"])
+      s.add_runtime_dependency(%q<will_paginate>)
+      s.add_runtime_dependency(%q<i18n>)
+      s.add_development_dependency(%q<shoulda>)
     else
       s.add_dependency(%q<rails>, [">= 3.1.0.rc6"])
-      s.add_dependency(%q<will_paginate>, [">= 3.0"])
-      s.add_dependency(%q<meta_where>, [">= 0.9"])
-      s.add_dependency(%q<i18n>, [">= 0.6"])
-      s.add_dependency(%q<shoulda>, [">= 2.11.3"])
+      s.add_dependency(%q<will_paginate>)
+      s.add_dependency(%q<i18n>)
+      s.add_dependency(%q<shoulda>)
     end
   else
     s.add_dependency(%q<rails>, [">= 3.1.0.rc6"])
-    s.add_dependency(%q<will_paginate>, [">= 3.0"])
-    s.add_dependency(%q<meta_where>, [">= 0.9"])
-    s.add_dependency(%q<i18n>, [">= 0.6"])
-    s.add_dependency(%q<shoulda>, [">= 2.11.3"])
+    s.add_dependency(%q<will_paginate>)
+    s.add_dependency(%q<i18n>)
+    s.add_dependency(%q<shoulda>)
   end
 end
